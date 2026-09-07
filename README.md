@@ -63,7 +63,7 @@ R was used for data integration, statistical analysis, indicator construction, v
 QGIS, together with the R package qgisprocess, was used to create regional maps of purchasing power using official ISTAT administrative boundaries.
 
 ### Repository Contents
-potere_d'acquisto.pdf — complete report of the analysis
+potere_d'acquisto.pdf — complete report of the analysis\\
 dati.xlsx — Excel file containing the datasets used in the analysis
 Reg01012025_g_WGS84.shp — ISTAT shapefile containing the Italian regional boundaries
 README.md — project description
