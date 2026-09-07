@@ -50,7 +50,7 @@ At macro-area level, three main groups emerge:
 - Centre: an intermediate economic profile, with income and unemployment levels between those of Northern and Southern Italy.
 - Mezzogiorno: characterised by lower income, higher unemployment and higher poverty.
 
-At regional level, four main groups can be identified:
+At regional level, four main groups can be identified.
 Lombardy emerges as a separate cluster due to its particularly high income level and strong growth.
 A second group includes regions characterised by relatively low purchasing power and negative or weak income growth, such as Liguria, Tuscany, Umbria, Marche, Abruzzo, Molise, Puglia and Friuli-Venezia Giulia.
 A third group includes regions with relatively low purchasing power but stronger recent growth, including Calabria, Sardinia, Basilicata, Trentino-Alto Adige and Valle d'Aosta.
