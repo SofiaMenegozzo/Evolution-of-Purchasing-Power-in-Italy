@@ -49,8 +49,8 @@ At macro-area level, three main groups emerge:
 - Northern Italy: North-West and North-East, characterised by higher income levels, low unemployment and relatively contained poverty.
 - Centre: an intermediate economic profile, with income and unemployment levels between those of Northern and Southern Italy.
 - Mezzogiorno: characterised by lower income, higher unemployment and higher poverty.
-At regional level, four main groups can be identified.
 
+At regional level, four main groups can be identified:
 Lombardy emerges as a separate cluster due to its particularly high income level and strong growth.
 A second group includes regions characterised by relatively low purchasing power and negative or weak income growth, such as Liguria, Tuscany, Umbria, Marche, Abruzzo, Molise, Puglia and Friuli-Venezia Giulia.
 A third group includes regions with relatively low purchasing power but stronger recent growth, including Calabria, Sardinia, Basilicata, Trentino-Alto Adige and Valle d'Aosta.
@@ -63,9 +63,12 @@ R was used for data integration, statistical analysis, indicator construction, v
 QGIS, together with the R package qgisprocess, was used to create regional maps of purchasing power using official ISTAT administrative boundaries.
 
 ### Repository Contents
-potere_d'acquisto.pdf — complete report of the analysis\\
+potere_d'acquisto.pdf — complete report of the analysis
+
 dati.xlsx — Excel file containing the datasets used in the analysis
+
 Reg01012025_g_WGS84.shp — ISTAT shapefile containing the Italian regional boundaries
+
 README.md — project description
 
 ### Limitations
