@@ -1,8 +1,8 @@
 ## Evolution of Purchasing Power in Italy (2016–2024)
 
-> **At a glance** · ISTAT + Eurostat data, 2016–2024 · nominal income per capita **+26%**, real income only **+4%** · Mezzogiorno purchasing power ~35% below the North-West · PCA, cluster analysis, composite well-being indicator, regional maps · Python, R, QGIS
+> **At a glance** · ISTAT + Eurostat data, 2016–2024 · nominal income per capita **+25%**, real income only **+4%** · Mezzogiorno purchasing power ~35% below the North-West · PCA, cluster analysis, composite well-being indicator, regional maps · Python, R, QGIS
 >
-> 📄 Full report (Italian): [`potere_d'acquisto.pdf`](potere_d'acquisto.pdf)
+> 📄 [English summary](purchasing_power_summary_EN.pdf) · full report in Italian: [`potere_d'acquisto.pdf`](potere_d'acquisto.pdf)
 
 This project analyses the evolution of purchasing power and economic well-being in Italy between 2016 and 2024. The analysis focuses on income, inflation, unemployment, poverty and inequality, with attention to the differences between Italian macro-areas and regions.
 The aim is to describe and interpret these economic phenomena in a clear and accessible way, also for readers without a specific background in economics or statistics.
@@ -68,13 +68,16 @@ R was used for data integration, statistical analysis, indicator construction, v
 QGIS, together with the R package qgisprocess, was used to create regional maps of purchasing power using official ISTAT administrative boundaries.
 
 ### Repository Contents
-potere_d'acquisto.pdf — complete report of the analysis
+- potere_d'acquisto.pdf — complete report of the analysis (Italian)
+- purchasing_power_summary_EN.pdf — 3-page summary in English
+- analisi_potere_acquisto.R — R script: data integration, derived indicators, tests, PCA, cluster analysis and maps
+- data/ — input tables used by the script (semicolon-separated CSV, exported from `dati.xlsx`)
+- dati.xlsx — all source datasets and the main output tables in one workbook
 
-dati.xlsx — Excel file containing the datasets used in the analysis
-
-Reg01012025_g_WGS84.shp — ISTAT shapefile containing the Italian regional boundaries
-
-README.md — project description
+### How to reproduce
+1. Open R in the repository folder and run `analisi_potere_acquisto.R`. Intermediate tables are written to `output/`.
+2. For the regional maps, download the ISTAT administrative boundaries (*Limiti amministrativi 2025*, generalised version, WGS84) and place the `Reg01012025_g` folder inside `data/`.
+3. Packages: dplyr, tidyr, ggplot2, Kendall, corrplot, Hmisc, cluster, factoextra, NbClust, reshape2, gridExtra, ggdendro, sf, tmap.
 
 ### Limitations
 The analysis has several methodological limitations.
