@@ -1,4 +1,9 @@
 ## Evolution of Purchasing Power in Italy (2016–2024)
+
+> **At a glance** · ISTAT + Eurostat data, 2016–2024 · nominal income per capita **+26%**, real income only **+4%** · Mezzogiorno purchasing power ~35% below the North-West · PCA, cluster analysis, composite well-being indicator, regional maps · Python, R, QGIS
+>
+> 📄 Full report (Italian): [`potere_d'acquisto.pdf`](potere_d'acquisto.pdf)
+
 This project analyses the evolution of purchasing power and economic well-being in Italy between 2016 and 2024. The analysis focuses on income, inflation, unemployment, poverty and inequality, with attention to the differences between Italian macro-areas and regions.
 The aim is to describe and interpret these economic phenomena in a clear and accessible way, also for readers without a specific background in economics or statistics.
 
